@@ -1,5 +1,4 @@
 .idea
 venv/
-*.xml
 .DS_Store
 __pycache__
