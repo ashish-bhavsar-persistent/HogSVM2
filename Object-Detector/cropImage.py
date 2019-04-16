@@ -19,5 +19,5 @@ for file_type in ['Images']:
             # print(file_type)
             img = Image.open(file_type + '/' + img1)
             img = img.crop((int(x),int(y),int(xb),int(yb)))
-            img = img.resize((100,120))
+            img = img.resize((313,203))
             img.save("cropped/"+ img1)
